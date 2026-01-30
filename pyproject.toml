@@ -1,0 +1,19 @@
+[project]
+name = "terraform-aws-modules"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "hailemichael.atrsaw2@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4"
+dependencies = [
+    "checkov (>=3.2.499,<4.0.0)",
+    "fmt (>=0.3.1,<0.4.0)",
+    "pre-commit (>=4.5.1,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
